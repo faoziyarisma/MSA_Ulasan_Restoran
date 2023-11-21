@@ -1,0 +1,459 @@
+Bayesian Optimization - IndoBERT - IndoCaption
+
+|   iter    |  target   | DROPOU... | LEARNI... |
+-------------------------------------------------
+Downloading pytorch_model.bin: 100%
+445M/445M [00:01<00:00, 214MB/s]
+Epoch 1/10
+----------
+/usr/local/lib/python3.10/dist-packages/transformers/optimization.py:407: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Train loss 1.5282523011581766 accuracy 0.21435185185185185
+Val loss 1.1288840455167435 accuracy 0.3333333333333333
+Epoch 2/10
+----------
+Train loss 1.281757817444978 accuracy 0.12638888888888888
+Val loss 1.109591831179226 accuracy 0.3333333333333333
+Epoch 3/10
+----------
+Train loss 1.2283145524837353 accuracy 0.1310185185185185
+Val loss 1.1035972903756535 accuracy 0.3333333333333333
+Epoch 4/10
+----------
+Train loss 1.200276538177773 accuracy 0.14444444444444443
+Val loss 1.1017247929292566 accuracy 0.3333333333333333
+Epoch 5/10
+----------
+Train loss 1.1796803986584699 accuracy 0.16203703703703703
+Val loss 1.1012623450335335 accuracy 0.3333333333333333
+Epoch 6/10
+----------
+Train loss 1.1628020692754675 accuracy 0.17777777777777778
+Val loss 1.0998608645270853 accuracy 0.3333333333333333
+Epoch 7/10
+----------
+Train loss 1.1474621106077123 accuracy 0.21157407407407408
+Val loss 1.098818491486942 accuracy 0.3333333333333333
+Epoch 8/10
+----------
+Train loss 1.1338550391020599 accuracy 0.2462962962962963
+Val loss 1.0982452911489151 accuracy 0.3333333333333333
+Epoch 9/10
+----------
+Train loss 1.1190736514550668 accuracy 0.2777777777777778
+Val loss 1.0976696855881636 accuracy 0.3333333333333333
+Epoch 10/10
+----------
+Train loss 1.109291425457707 accuracy 0.3138888888888889
+Val loss 1.0968490418265848 accuracy 0.34074074074074073
+TEST ACC = 0.35185185185185186
+MACRO F1 = 0.20337834567542712
+| 1         | 0.2034    | 0.131     | 3.269e-05 |
+Epoch 1/10
+----------
+/usr/local/lib/python3.10/dist-packages/transformers/optimization.py:407: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Train loss 1.270503314336141 accuracy 0.24768518518518517
+Val loss 1.0580248762579525 accuracy 0.4444444444444444
+Epoch 2/10
+----------
+Train loss 1.152017271960223 accuracy 0.3
+Val loss 1.0010707027771895 accuracy 0.5407407407407407
+Epoch 3/10
+----------
+Train loss 1.0791484466305485 accuracy 0.3837962962962963
+Val loss 0.9051050543785095 accuracy 0.5851851851851851
+Epoch 4/10
+----------
+Train loss 0.9640973832872178 accuracy 0.5013888888888889
+Val loss 0.8195271211511949 accuracy 0.6222222222222222
+Epoch 5/10
+----------
+Train loss 0.8678094837400648 accuracy 0.5777777777777777
+Val loss 0.7941856033661786 accuracy 0.6555555555555556
+Epoch 6/10
+----------
+Train loss 0.7998523407512241 accuracy 0.6324074074074074
+Val loss 0.782662561711143 accuracy 0.6259259259259259
+Epoch 7/10
+----------
+Train loss 0.7525320302557063 accuracy 0.6597222222222222
+Val loss 0.7678536755197188 accuracy 0.6444444444444445
+Epoch 8/10
+----------
+Train loss 0.6971354411707984 accuracy 0.700462962962963
+Val loss 0.7527502144084257 accuracy 0.662962962962963
+Epoch 9/10
+----------
+Train loss 0.6512066580631115 accuracy 0.7273148148148149
+Val loss 0.7540167394806357 accuracy 0.662962962962963
+Epoch 10/10
+----------
+Train loss 0.6476269130353575 accuracy 0.7203703703703703
+Val loss 0.7562816002789665 accuracy 0.6666666666666666
+TEST ACC = 0.7037037037037037
+MACRO F1 = 0.6980926587497055
+| 2         | 0.6981    | 0.1337    | 7.207e-06 |
+Epoch 1/10
+----------
+/usr/local/lib/python3.10/dist-packages/transformers/optimization.py:407: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Train loss 1.7597075845597794 accuracy 0.26666666666666666
+Val loss 1.158090146148906 accuracy 0.3333333333333333
+Epoch 2/10
+----------
+Train loss 1.3054286696292736 accuracy 0.11574074074074074
+Val loss 1.1134627426371855 accuracy 0.3333333333333333
+Epoch 3/10
+----------
+Train loss 1.2425622344017029 accuracy 0.13472222222222222
+Val loss 1.1053793570574593 accuracy 0.3333333333333333
+Epoch 4/10
+----------
+Train loss 1.2065554256792421 accuracy 0.13518518518518519
+Val loss 1.102101908010595 accuracy 0.3333333333333333
+Epoch 5/10
+----------
+Train loss 1.1847847951783075 accuracy 0.15787037037037038
+Val loss 1.1006849092595719 accuracy 0.3333333333333333
+Epoch 6/10
+----------
+Train loss 1.1678429210627521 accuracy 0.17962962962962964
+Val loss 1.1001443582422592 accuracy 0.3333333333333333
+Epoch 7/10
+----------
+Train loss 1.1520602111463194 accuracy 0.20416666666666666
+Val loss 1.0996654734892004 accuracy 0.3333333333333333
+Epoch 8/10
+----------
+Train loss 1.138607664461489 accuracy 0.2337962962962963
+Val loss 1.099106003256405 accuracy 0.3333333333333333
+Epoch 9/10
+----------
+Train loss 1.1228983843768086 accuracy 0.2708333333333333
+Val loss 1.0988448086906881 accuracy 0.3333333333333333
+Epoch 10/10
+----------
+Train loss 1.108410946528117 accuracy 0.3226851851851852
+Val loss 1.0986230864244348 accuracy 0.3333333333333333
+TEST ACC = 0.3333333333333333
+MACRO F1 = 0.16666666666666666
+| 3         | 0.1667    | 0.1376    | 4.723e-05 |
+Epoch 1/10
+----------
+/usr/local/lib/python3.10/dist-packages/transformers/optimization.py:407: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Train loss 1.2971788278332463 accuracy 0.30324074074074076
+Val loss 1.049726829809301 accuracy 0.5296296296296297
+Epoch 2/10
+----------
+Train loss 1.1114006788642319 accuracy 0.35185185185185186
+Val loss 0.9698157485793618 accuracy 0.5851851851851851
+Epoch 3/10
+----------
+Train loss 1.011733059971421 accuracy 0.46574074074074073
+Val loss 0.8559734698604134 accuracy 0.6074074074074074
+Epoch 4/10
+----------
+Train loss 0.8781800777823837 accuracy 0.575925925925926
+Val loss 0.7859886989873999 accuracy 0.6296296296296297
+Epoch 5/10
+----------
+Train loss 0.7895368339838805 accuracy 0.6287037037037037
+Val loss 0.7481411152026233 accuracy 0.662962962962963
+Epoch 6/10
+----------
+Train loss 0.7353715909851922 accuracy 0.6643518518518519
+Val loss 0.7446349122945 accuracy 0.662962962962963
+Epoch 7/10
+----------
+Train loss 0.6937006573986124 accuracy 0.6962962962962963
+Val loss 0.7328177252236534 accuracy 0.674074074074074
+Epoch 8/10
+----------
+Train loss 0.6536216511770531 accuracy 0.725462962962963
+Val loss 0.7290258723146775 accuracy 0.6888888888888889
+Epoch 9/10
+----------
+Train loss 0.6248879092710989 accuracy 0.7328703703703704
+Val loss 0.7329160010113436 accuracy 0.7
+Epoch 10/10
+----------
+Train loss 0.6001358068651623 accuracy 0.7449074074074075
+Val loss 0.7363600082257215 accuracy 0.7
+TEST ACC = 0.7
+MACRO F1 = 0.6916257287983562
+| 4         | 0.6916    | 0.1294    | 6.123e-06 |
+Epoch 1/10
+----------
+/usr/local/lib/python3.10/dist-packages/transformers/optimization.py:407: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Train loss 1.7549717474659836 accuracy 0.26666666666666666
+Val loss 1.142086435766781 accuracy 0.32592592592592595
+Epoch 2/10
+----------
+Train loss 1.3326824554690608 accuracy 0.11527777777777778
+Val loss 1.1140692163916195 accuracy 0.3333333333333333
+Epoch 3/10
+----------
+Train loss 1.252723017003801 accuracy 0.14351851851851852
+Val loss 1.1045510839013493 accuracy 0.3333333333333333
+Epoch 4/10
+----------
+Train loss 1.2271269180156565 accuracy 0.14305555555555555
+Val loss 1.1016216348199284 accuracy 0.3333333333333333
+Epoch 5/10
+----------
+Train loss 1.1967419416816145 accuracy 0.17407407407407408
+Val loss 1.1000489487367517 accuracy 0.3333333333333333
+Epoch 6/10
+----------
+Train loss 1.1733320545267176 accuracy 0.19166666666666668
+Val loss 1.0996829271316528 accuracy 0.3333333333333333
+Epoch 7/10
+----------
+Train loss 1.1571305063035753 accuracy 0.21388888888888888
+Val loss 1.0989138238570269 accuracy 0.3333333333333333
+Epoch 8/10
+----------
+Train loss 1.139320648158038 accuracy 0.24953703703703703
+Val loss 1.0985866714926327 accuracy 0.3333333333333333
+Epoch 9/10
+----------
+Train loss 1.1300086162708425 accuracy 0.26481481481481484
+Val loss 1.0984803999171537 accuracy 0.3333333333333333
+Epoch 10/10
+----------
+Train loss 1.1121011257171631 accuracy 0.3101851851851852
+Val loss 1.098455969025107 accuracy 0.34074074074074073
+TEST ACC = 0.32592592592592595
+MACRO F1 = 0.1638733705772812
+| 5         | 0.1639    | 0.1395    | 4.736e-05 |
+Epoch 1/10
+----------
+/usr/local/lib/python3.10/dist-packages/transformers/optimization.py:407: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Train loss 1.1860783947838678 accuracy 0.2810185185185185
+Val loss 1.0998684448354386 accuracy 0.37037037037037035
+Epoch 2/10
+----------
+Train loss 1.1229667690065173 accuracy 0.33564814814814814
+Val loss 1.0840111725470598 accuracy 0.3814814814814815
+Epoch 3/10
+----------
+Train loss 1.1083721412552727 accuracy 0.3476851851851852
+Val loss 1.0446436790858997 accuracy 0.4777777777777778
+Epoch 4/10
+----------
+Train loss 1.0664070632722642 accuracy 0.41759259259259257
+Val loss 1.0118414373958813 accuracy 0.5185185185185185
+Epoch 5/10
+----------
+Train loss 1.0420199592908224 accuracy 0.4425925925925926
+Val loss 0.9806323051452637 accuracy 0.5407407407407407
+Epoch 6/10
+----------
+Train loss 1.0083439584131595 accuracy 0.49027777777777776
+Val loss 0.9565832895391128 accuracy 0.5444444444444444
+Epoch 7/10
+----------
+Train loss 0.9713206308859366 accuracy 0.5388888888888889
+Val loss 0.9241693160113167 accuracy 0.5703703703703704
+Epoch 8/10
+----------
+Train loss 0.9408831556638082 accuracy 0.5606481481481481
+Val loss 0.8992974477655747 accuracy 0.6
+Epoch 9/10
+----------
+Train loss 0.913110179371304 accuracy 0.5907407407407408
+Val loss 0.8827619166935191 accuracy 0.6111111111111112
+Epoch 10/10
+----------
+Train loss 0.9002666301197476 accuracy 0.6055555555555555
+Val loss 0.8769743056858287 accuracy 0.6185185185185185
+TEST ACC = 0.6185185185185185
+MACRO F1 = 0.6162424809749163
+| 6         | 0.6162    | 0.1337    | 2.199e-06 |
+Epoch 1/10
+----------
+/usr/local/lib/python3.10/dist-packages/transformers/optimization.py:407: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Train loss 1.3601211316055721 accuracy 0.27685185185185185
+Val loss 1.057857937672559 accuracy 0.4740740740740741
+Epoch 2/10
+----------
+Train loss 1.1328391900768986 accuracy 0.3384259259259259
+Val loss 0.9804581438793856 accuracy 0.5555555555555556
+Epoch 3/10
+----------
+Train loss 1.045395306746165 accuracy 0.425
+Val loss 0.8575075251214644 accuracy 0.5925925925925926
+Epoch 4/10
+----------
+Train loss 0.9104383477458248 accuracy 0.5398148148148149
+Val loss 0.7636846882455489 accuracy 0.6222222222222222
+Epoch 5/10
+----------
+Train loss 0.79466227778682 accuracy 0.6231481481481481
+Val loss 0.750379848129609 accuracy 0.6333333333333333
+Epoch 6/10
+----------
+Train loss 0.7150214510935324 accuracy 0.6814814814814815
+Val loss 0.7591909064966089 accuracy 0.6481481481481481
+Epoch 7/10
+----------
+Train loss 0.677597517878921 accuracy 0.7083333333333334
+Val loss 0.7328663748853347 accuracy 0.6555555555555556
+Epoch 8/10
+----------
+Train loss 0.6332072625557582 accuracy 0.7337962962962963
+Val loss 0.7134653259726131 accuracy 0.6888888888888889
+Epoch 9/10
+----------
+Train loss 0.5956978328801967 accuracy 0.7513888888888889
+Val loss 0.714471285834032 accuracy 0.7
+Epoch 10/10
+----------
+Train loss 0.5523955511826056 accuracy 0.7782407407407408
+Val loss 0.718358006547479 accuracy 0.7
+TEST ACC = 0.6888888888888889
+MACRO F1 = 0.6808124104129099
+| 7         | 0.6808    | 0.1338    | 8.213e-06 |
+Epoch 1/10
+----------
+/usr/local/lib/python3.10/dist-packages/transformers/optimization.py:407: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Train loss 1.4726828330368906 accuracy 0.18888888888888888
+Val loss 1.1158207339399002 accuracy 0.3333333333333333
+Epoch 2/10
+----------
+Train loss 1.2484435187445746 accuracy 0.12175925925925926
+Val loss 1.1046084551250233 accuracy 0.3333333333333333
+Epoch 3/10
+----------
+Train loss 1.207420606524856 accuracy 0.1537037037037037
+Val loss 1.1015358321806963 accuracy 0.3333333333333333
+Epoch 4/10
+----------
+Train loss 1.183646081995081 accuracy 0.17037037037037037
+Val loss 1.101211337482228 accuracy 0.3333333333333333
+Epoch 5/10
+----------
+Train loss 1.1641194440700389 accuracy 0.18888888888888888
+Val loss 1.1000091258217306 accuracy 0.3333333333333333
+Epoch 6/10
+----------
+Train loss 1.153123391557623 accuracy 0.20925925925925926
+Val loss 1.0992460952085608 accuracy 0.3333333333333333
+Epoch 7/10
+----------
+Train loss 1.141262776763351 accuracy 0.22824074074074074
+Val loss 1.0988545768401201 accuracy 0.3333333333333333
+Epoch 8/10
+----------
+Train loss 1.133776142862108 accuracy 0.2337962962962963
+Val loss 1.0986358207814835 accuracy 0.3333333333333333
+Epoch 9/10
+----------
+Train loss 1.1177508672078451 accuracy 0.2763888888888889
+Val loss 1.0985159032485063 accuracy 0.3333333333333333
+Epoch 10/10
+----------
+Train loss 1.1080540939613626 accuracy 0.324537037037037
+Val loss 1.0983680416555965 accuracy 0.34074074074074073
+TEST ACC = 0.32592592592592595
+MACRO F1 = 0.1638733705772812
+| 8         | 0.1639    | 0.1295    | 2.468e-05 |
+Epoch 1/10
+----------
+/usr/local/lib/python3.10/dist-packages/transformers/optimization.py:407: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Train loss 1.4015987980144995 accuracy 0.17222222222222222
+Val loss 1.109208362943986 accuracy 0.3333333333333333
+Epoch 2/10
+----------
+Train loss 1.2003989939336424 accuracy 0.14722222222222223
+Val loss 1.1017810036154354 accuracy 0.3333333333333333
+Epoch 3/10
+----------
+Train loss 1.177827157356121 accuracy 0.16296296296296298
+Val loss 1.1005134792888867 accuracy 0.3333333333333333
+Epoch 4/10
+----------
+Train loss 1.1633310838981912 accuracy 0.18425925925925926
+Val loss 1.0997368097305298 accuracy 0.3333333333333333
+Epoch 5/10
+----------
+Train loss 1.1533283595685606 accuracy 0.1925925925925926
+Val loss 1.097800289883333 accuracy 0.3333333333333333
+Epoch 6/10
+----------
+Train loss 1.1391921034565677 accuracy 0.22314814814814815
+Val loss 1.0949279210146736 accuracy 0.3333333333333333
+Epoch 7/10
+----------
+Train loss 1.125908194647895 accuracy 0.26666666666666666
+Val loss 1.0770399079603308 accuracy 0.4666666666666667
+Epoch 8/10
+----------
+Train loss 1.0953783163317927 accuracy 0.35833333333333334
+Val loss 1.1231925505049087 accuracy 0.4148148148148148
+Epoch 9/10
+----------
+Train loss 0.9943132669837387 accuracy 0.49583333333333335
+Val loss 0.8505476432688096 accuracy 0.5851851851851851
+Epoch 10/10
+----------
+Train loss 0.8604672994878557 accuracy 0.5847222222222223
+Val loss 0.8681092086960288 accuracy 0.5777777777777777
+TEST ACC = 0.5740740740740741
+MACRO F1 = 0.5484633569739953
+| 9         | 0.5485    | 0.1293    | 1.49e-05  |
+Epoch 1/10
+----------
+/usr/local/lib/python3.10/dist-packages/transformers/optimization.py:407: FutureWarning: This implementation of AdamW is deprecated and will be removed in a future version. Use the PyTorch implementation torch.optim.AdamW instead, or set `no_deprecation_warning=True` to disable this warning
+  warnings.warn(
+Train loss 1.8501453909333105 accuracy 0.3314814814814815
+Val loss 1.5972008109092712 accuracy 0.3333333333333333
+Epoch 2/10
+----------
+Train loss 1.375752823441117 accuracy 0.11944444444444445
+Val loss 1.1154507433666903 accuracy 0.3333333333333333
+Epoch 3/10
+----------
+Train loss 1.2461997425114666 accuracy 0.1310185185185185
+Val loss 1.1046790936413933 accuracy 0.3333333333333333
+Epoch 4/10
+----------
+Train loss 1.2117866233543113 accuracy 0.14583333333333334
+Val loss 1.1019399867338293 accuracy 0.3333333333333333
+Epoch 5/10
+----------
+Train loss 1.1894538751354924 accuracy 0.17083333333333334
+Val loss 1.1007415967829086 accuracy 0.3333333333333333
+Epoch 6/10
+----------
+Train loss 1.16693717373742 accuracy 0.19814814814814816
+Val loss 1.10026813955868 accuracy 0.3333333333333333
+Epoch 7/10
+----------
+Train loss 1.153140589484462 accuracy 0.20277777777777778
+Val loss 1.099578773274141 accuracy 0.3333333333333333
+Epoch 8/10
+----------
+Train loss 1.133729139080754 accuracy 0.25324074074074077
+Val loss 1.0995110483730541 accuracy 0.3333333333333333
+Epoch 9/10
+----------
+Train loss 1.1231243398454454 accuracy 0.2833333333333333
+Val loss 1.0993866219240076 accuracy 0.3333333333333333
+Epoch 10/10
+----------
+Train loss 1.1107419384850397 accuracy 0.30694444444444446
+Val loss 1.0992289711447323 accuracy 0.3333333333333333
+TEST ACC = 0.3333333333333333
+MACRO F1 = 0.16666666666666666
+| 10        | 0.1667    | 0.1337    | 4.415e-05 |
+=================================================
+
+{'target': 0.6980926587497055, 'params': {'DROPOUT_PROB': 0.13371489294221273, 'LEARNING_RATE': 7.206885992548087e-06}}
